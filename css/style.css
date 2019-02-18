@@ -444,6 +444,7 @@ border: none;
 
 h4 {
     color: #dadada;
+    margin-top: 2em;
 }
 .bg {
     object-fit: cover;
@@ -464,7 +465,6 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* font-size: 0.7rem; */
     flex-shrink: 0;
     height: 63px;
     position: absolute;
@@ -533,6 +533,9 @@ h4 {
     color: #2ecc71;
 }
 a svg:hover #twitter {
+    fill: #38A1F3;
+}
+a svg:hover #twitter2 {
     fill: #38A1F3;
 }
 a svg:hover #facebook {
@@ -771,5 +774,7 @@ hr {
     .tab-links p {
         font-size: 0.5em;
     }
-    
+    #footer-nav {
+        margin-top: -5em;
+    }
  }
